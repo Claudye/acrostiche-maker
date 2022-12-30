@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acrostiche game</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+
+  <body>
+    <main>
+      <div id="app">
+          <span class="logo">A</span>
+          <h3>Générer un joli acrostiche pour votre prénom</h3>
+        <div class="mb-3">
+          <input type="email" id="name" placeholder="Saissisez votre nom" />
+        </div>
+        <select id="categories">
+          <option selected disabled>Selectionnez une catégorie</option>
+          <option value="love">Love</option>
+        </select>
+        <ul id="liste"></ul>
+       <div style="display: flex; justify-content: space-between;"> <button type="button" id="submit">Générer</button>
+        <p>  <small>Copyright © <script> document.write( (new Date).getFullYear()) </script> Créé par <a href="https://web.facebook.com/claudy.web.927/" style="text-decoration:  none;;">Claude Fassinou</a> </small>  </p></div>
+      </div>
+      
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
